@@ -4,6 +4,9 @@ const bcrypt = require('bcrypt')
 
 const app = express()
 
+// set view engine
+app.set("view engine", "ejs");
+
 //link my folders
 app.use(express.static("public"))
 
