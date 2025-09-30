@@ -12,7 +12,7 @@ app.use(express.static("public"))
 
 // link my web pages
 app.get("/", (req, res) => {
-    res.send('home')
+    res.render('home')
 })
 
 app.get("/signup", (req, res) => {
