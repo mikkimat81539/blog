@@ -15,16 +15,12 @@ app.get("/", (req, res) => {
     res.render('home')
 })
 
-app.get("/signup", (req, res) => {
-    res.send('signup')
-})
-
 app.get("/about", (req, res) => {
-    res.send('about')
+    res.render('about')
 })
 
 app.get("/contact", (req, res) => {
-    res.send('contact')
+    res.render('contact')
 })
 
 
