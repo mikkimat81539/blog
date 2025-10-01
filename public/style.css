@@ -49,7 +49,7 @@ body {
 }
 
 .my_logo > p {
-    font-size: 20px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     cursor: default;
@@ -78,6 +78,7 @@ body {
 
 .contents > ul > li > a:hover {
     text-decoration: underline;
+    color: rgb(134, 134, 134);
 }
 
 .join_us {
@@ -100,4 +101,50 @@ body {
 
 .join_us:hover {
     text-decoration: underline;
+}
+
+.middle {
+    margin-top: 20px;
+    border: solid 5px red;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.description {
+    border: solid 5px orange;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.description > h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
+}
+
+.description > p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
+    margin-top: 20px;
+}
+
+.turtle_images {
+    border: solid 5px orange;
+    width: 100%;
+    height: 50%;
+}
+
+footer {
+    margin-top: 10px;
+    width: 100%;
+    height: 10%;
+}
+
+footer > p {
+    text-align: center;
+    color: rgb(120, 120, 120);
+    cursor: default;
 }
