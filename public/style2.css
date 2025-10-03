@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 250, 240);
+}
+
+.main {
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(8, 4fr);
+    border: rgb(206, 206, 206) solid 5px;
+    background-color: white;
+    border-radius: 45px;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.my_logo {
+    margin-left: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+    height: 80px;
+}
+
+.my_logo > img {
+    width: 60x;
+    height: 60px;
+}
+
+.my_logo > p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: default;
+    color: rgb(93, 25, 25);;
+}
+
+.contents {
+    grid-column: 2/8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents > ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.contents > ul > li > a {
+    text-decoration: none;
+    color: rgb(72, 20, 20);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.contents > ul > li > a:hover {
+    text-decoration: underline;
+    color: rgb(134, 134, 134);
+}
+
+.join_us {
+    margin-left: 5px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    border-radius: 30px;
+    background-color: green;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titling {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titling > h2 {
+    color: rgb(70, 70, 70);
+}
+
+.middle {
+    padding: 30px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.contact_form {
+    padding: 20px;
+    border: rgb(134, 134, 134) solid 2px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 7px 5px rgb(149, 149, 149);
+    width: 60%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    align-items: center;
+    gap: 3px;
+}
+
+label {
+    width: 60px;
+    height: 20px;
+    margin: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, textarea {
+    margin: 5px;
+}
+
+.contact_form > .name {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.contact_form > .name_bar {
+    grid-row: 4;
+    grid-column: 1;
+    width: auto;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.contact_form > .email {
+    grid-row: 5;
+    grid-column: 1;
+}
+
+.contact_form > .email_bar {
+    padding-left: 5px;
+    grid-row: 6;
+    grid-column: 1;
+    width: auto;
+    height: 30px;
+}
+
+.contact_form > .message {
+    grid-row: 7;
+    grid-column: 1;
+}
+
+.contact_form > .message_bar {
+    padding-top: 7px;
+    padding-left: 5px;
+    grid-row: 8;
+    grid-column: 1;
+    width: auto;
+    resize: vertical;
+    height: 60px;
+    min-height: 60px;
+    max-height: 80px;
+}
+
+.contact_form > .submit {
+    grid-row: 9;
+    grid-column: 1;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 1px 2px 3px rgb(196, 195, 195);
+}
+
+.social_container {
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 250px;
+    right: 350px;
+    width: 350px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.socials > a {
+    border-radius: 100px;
+    margin: 5px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials > a > img {
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 10%;
+}
+
+footer > p {
+    text-align: center;
+    color: rgb(120, 120, 120);
+    cursor: default;
+}
