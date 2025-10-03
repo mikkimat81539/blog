@@ -19,6 +19,10 @@ app.get("/about", (req, res) => {
     res.render('about')
 })
 
+app.get("/forum", (req, res) => {
+    res.send('news & stories')
+})
+
 app.get("/contact", (req, res) => {
     res.render('contact')
 })

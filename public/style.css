@@ -173,8 +173,8 @@ body {
 
 .slider_nav > a {
     margin: 5px;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background-color: rgb(128, 128, 128);
     opacity: 0.75;
