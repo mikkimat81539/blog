@@ -24,7 +24,11 @@ app.get("/forum", (req, res) => {
 })
 
 app.get("/contact", (req, res) => {
-    res.render('contact')
+    res.render("contact")
+})
+
+app.get("/signup", (req, res) => {
+    res.send('signup')
 })
 
 
